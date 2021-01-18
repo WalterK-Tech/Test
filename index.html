@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Initiation</title>
+    <link rel="stylesheet" href="src/css/index.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Qui sommes-nous</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
     <!-- Commentaire -->
     <h1>Hello World</h1>
     <h2>Hello World</h2>
@@ -14,10 +23,10 @@
     <h5>Hello World</h5>
     <H6>Hello World</H6>
 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <p class="policeMax">Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Enim blanditiis explicabo pariatur nihil minus debitis unde numquam, 
     qui itaque excepturi a aliquid, ut iusto veritatis iste iure. 
-    Voluptates, accusantium perspiciatis.
+    Voluptates, accusantium perspiciatis.</p> 
     
     <h1>Transgression</h1>
     <h2>Coucou</h2>
@@ -57,7 +66,62 @@
     </table>
 
     <form action="">
+        <p><input placeholder="Name" type="Name" required></p>
+        <p><input type="color"></p>
+        <p><input type="checkbox"></p>
+        <p><input type="date"></p>
+        <p><input type="email"></p>
+        <p><input type="datetime-local"></p>
+        <p><input type="file"></p>
+        <p><input type="image"></p>
+        <p><input type="month"></p>
+        <p><input type="number"></p>
+        <p><input type="password" required></p>
+        <p><input type="radio"> <span>Bonjour</span> <input type="radio"><span>Bonsoir</span></p>
+        <p><input type="range"></p>
+        <p><input type="search"></p>
+        <p><input type="tel"></p>
+        <p><input type="time"></p>
+        <p><input type="url"></p>
+        <p><input type="week"></p>
+
+        <p>Entrez votre nom</p>
+        <input type="text" placeholder="Nom"> <br>
+
+        <label for="">Entrez votre nom</label>
+        <p><input type="text" placeholder="Nom"></p>
         
+        <div>
+            <select>
+            <option value="Pommes">Pommes</option>
+            <option value="Poires">Poires</option>
+            <option value="Pêches">Pêches</option>
+        </select>
+        </div>
+
+        <div style="padding: 25px 0px;" >
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        
+
+        <button type="submit">Valider Mon Formulaire</button>
+
     </form>
+
+    <h3>Les types de balises</h3>
+    <p>Test Paragraphe</p><p>Test Paragraphe</p>
+
+    <section style="background-color: brown; padding: 25px 25px;">
+        <h3 style="margin-top: unset;" >Ceci est le contenu de ma section</h3>
+        <p>Lorem ipsum dolor sit amet consectetur  </p>
+        <form action="">
+            <input style="margin-bottom: 1em;" type="text"> <br>
+            <input style="margin-bottom: 1em;" type="email" name="" id=""> <br>
+            <button type="submit">Valider</button>
+        </form>
+    </section>
+
+    <p>En dehors de ma section</p>
+
 </body>
 </html>

@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.policeMax {
+    font-size: 2rem;
+    color: teal;
+    background-color: tomato ;
+    padding: 1rem;
+}
